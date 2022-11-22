@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pro Book</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container-botao">
+            <label for="menu">
+                <span class="menu-hamburguer container-imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="menu-titulo">Categorias</li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Programação</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Front-end</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Infraestrutura</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Business</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Design & UX</a>
+                </li>
+            </ul>
+
+            <img src="img/logo.svg" class="img-logo" alt="Logo da Probook" class="container-imagem">
+
+            <h1 class="container-titulo">Pro<span class="titulo-negrito"> Book</span></h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes-botao">
+            <label for="opcoes-menu">
+                <li class="opcoes-item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Programação</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Front-end</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Infraestrutura</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Business</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Design & UX</a>
+                </li>
+            </ul>
+
+            <li class="opcoes-item">
+                <a href="#" class="opcoes-link">Programação</a>
+            </li>
+            <li class="opcoes-item">
+                <a href="#" class="opcoes-link">Front-end</a>
+            </li>
+            <li class="opcoes-item">
+                <a href="#" class="opcoes-link">Infraestrutura</a>
+            </li>
+        </ul>
+
+        <div class="container">
+            <a href="#">
+                <img src="img/Favoritos.svg" alt="Meus favoritos" class="container-imagem icon-transparente">
+            </a>
+            <a href="#" class="container-link">
+                <img src="img/Compras.svg" alt="Carrinho de compras" class="container-imagem">
+                <p class="container-texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container-link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container-imagem">
+                <p class="container-texto">Meu perfil</p>
+
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner-titulo">O que fazer para se motivar a estudar?</h2>
+        <p class="banner-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, repellat. Dolor
+            magnam praesentium iusto repellendus aliquam saepe corrupti.</p>
+        <input type="search" class="banner-pesquisa" placeholder="Qual será sua proxima leitura?">
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Novos Lançamentos</h2>
+
+        <!-- Slider main container -->
+        <div class="carrossel-container">
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/javascript.jpg" alt="Livro sobre javascript"></div>
+                <div class="swiper-slide"><img src="./img/logica de programação.jpg"
+                        alt="Livro sobre logica de programação"></div>
+                <div class="swiper-slide"><img src="./img/c++.jpg" alt="Livro sobre C++"></div>
+                <div class="swiper-slide"><img src="./img/python.jpg" alt="Livro sobre python"></div>
+                <div class="swiper-slide"><img src="./img/codigo limpo.jpeg" alt="livro sobre codigo limpo"></div>
+                <div class="swiper-slide"><img src="./img/algoritimoC.jpg" alt="Livro sobre algoritimos em C"></div>
+            </div>
+
+            </div>
+
+        <div class="card">
+            <div class="card-descricao">
+                <div class="descricao">
+                    <h3 class="descricao-titulo">Talvez você se interesse por...</h3>
+                    <h2 class="descricao-livro">javascript</h2>
+                    <p class="descricao-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <img src="img/logo js.png" alt="logo do javascript" class="descricao-imagem">
+            </div>
+
+            <div class="card-botao">
+                <ul class="botoes">
+                    <li class="botoes-item"><img src="./img/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes-item"><img src="./img/Compras.svg" alt="adcionar no Carrinho"></li>
+                </ul>
+                <a href="#" class="botao-ancora">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Mais vendidos</h2>
+
+        <!-- Slider main container -->
+        <div class="carrossel-container">
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/javascript.jpg" alt="Livro sobre javascript"></div>
+                <div class="swiper-slide"><img src="./img/logica de programação.jpg"
+                        alt="Livro sobre logica de programação"></div>
+                <div class="swiper-slide"><img src="./img/c++.jpg" alt="Livro sobre C++"></div>
+                <div class="swiper-slide"><img src="./img/python.jpg" alt="Livro sobre python"></div>
+                <div class="swiper-slide"><img src="./img/codigo limpo.jpeg" alt="livro sobre codigo limpo"></div>
+                <div class="swiper-slide"><img src="./img/algoritimoC.jpg" alt="Livro sobre algoritimos em C"></div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card-descricao">
+                <div class="descricao">
+                    <div class="estrela">
+                        <img src="./img/estrela.png" alt="estrela">
+                        <img src="./img/estrela.png" alt="estrela">
+                        <img src="./img/estrela.png" alt="estrela">
+                        <img src="./img/estrela.png" alt="estrela">
+                        <img src="./img/estrela.png" alt="estrela">
+                    </div>
+                    <h3 class="descricao-titulo">Livro do Mês</h3>
+                    <h2 class="descricao-livro">Clean Code</h2>
+                    <p class="descricao-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <img src="img/codigo limpo.jpeg" alt="logo do javascript" class="descricao-imagem">
+            </div>
+
+            <div class="card-botao">
+                <ul class="botoes">
+                    <li class="botoes-item"><img src="./img/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes-item"><img src="./img/Compras.svg" alt="adcionar no Carrinho"></li>
+                </ul>
+                <a href="#" class="botao-ancora">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos-titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos-lista">
+            <li class="topico-item">
+                <a href="#" class="topico-link">Android</a>
+            </li>
+            <li class="topico-item">
+                <a href="#" class="topico-link">Marketing Digital</a>
+            </li>
+            <li class="topico-item">
+                <a href="#" class="topico-link">Agile</a>
+            </li>
+            <li class="topico-item">
+                <a href="#" class="topico-link">Startups</a>
+            </li>
+            <li class="topico-item">
+                <a href="#" class="topico-link">HTML e CSS</a>
+            </li>
+            <li class="topico-item">
+                <a href="#" class="topico-link">python</a>
+            </li>
+            <li class="topico-item">
+                <a href="#" class="topico-link">OO</a>
+            </li>
+            <li class="topico-item">
+                <a href="#" class="topico-link">Java</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato-descricao">
+            <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
+            <p class="contato-texto">Atualizações de e-bookes, novos livros, promoções e outros</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
+    </section>
+
+    <hr />
+
+    <footer class="rodape">
+        <h2 class="rodape-titulo">Grupo Pro Book</h2>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>

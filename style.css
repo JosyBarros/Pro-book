@@ -1,0 +1,42 @@
+@import url("style/header.css");
+@import url("style/banner.css");
+@import url("style/carrossel.css");
+@import url("style/topicos.css");
+@import url("style/contato.css");
+@import url("style/rodape.css");
+
+
+
+
+:root {
+    --cor-de-fundo: #e8e8e8;
+    --branco:  #ffffff;
+    --laranja: #D07000;
+    --verde: #a1bba2;
+    --vermelho: #850E35;
+    --azul: #242F9B;
+    --font-principal: 'poppins', sans-serif;
+    --font-logo: 'Josefin Sans', sans-serif;
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'poppins', sans-serif;
+
+verde= #a1bba2
+cinza = #a4a4a4
+cinza-claro = #cdcdc9
+cinza-mais-claro = #e8e8e8
+preto = #000000
+branco = #ffffff
+roxo = #635666 */
